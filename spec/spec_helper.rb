@@ -3,7 +3,7 @@ require './lib/server'
 require 'database_cleaner'
 require 'capybara/rspec'
 
-Capybara.app = Sinatra::Aplication
+Capybara.app = BookmarkManager
 
 RSpec.configure do |config|
 
